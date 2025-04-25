@@ -16,14 +16,8 @@ Python 3.9 or higher
 pip​
 
 Installation
-Clone the repository:
-
-
-git clone https://github.com/yourusername/pursuit-assistant.git
-cd pursuit-assistant
+Clone the repository
 Create a virtual environment:
-
-
 python -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 Install dependencies:
@@ -59,17 +53,11 @@ Edit
   {
     "response": "Chatbot's answer based on Excel data."
   }
+  
 🗂 Project Structure
-bash
-Copy
-Edit
-pursuit-assistant/
 ├── app.py                 # Streamlit frontend
 ├── backend.py             # FastAPI backend
 ├── requirements.txt       # Python dependencies
 ├── .env                   # Environment variables
-├── data/
-│   └── your_data.xlsx     # Excel data files
-├── utils/
-│   └── data_loader.py     # Functions to load and process Excel data
+├── source_excel.xlsx     # Excel file with one sheet
 └── README.md              # Project documentation
